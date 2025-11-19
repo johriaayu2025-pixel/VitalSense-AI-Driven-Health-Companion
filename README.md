@@ -1,73 +1,153 @@
-# Welcome to your Lovable project
+# **VitalSense – AI-Powered Personal Health & Wellness Platform**
 
-## Project info
+VitalSense is an intelligent, real-time personal health companion that combines medical AI, nutrition analysis, IoT integration, and emergency safety into one seamless experience.  
+Powered entirely by **Google Gemini models**, VitalSense understands user data, predicts risks, analyzes scans, and responds like a smart health co-pilot.
 
-**URL**: https://lovable.dev/projects/22b6a526-8850-42e4-9dba-ecd9ae9027a2
+---
 
-## How can I edit this code?
+# **🚀 Key Features**
 
-There are several ways of editing your application.
+## **1. Smart Health Dashboard**
+- Dynamic **Overall Health Score** (auto-updated using user logs + AI interpretation)  
+- Intelligent **Hydration Tracking**  
+- **AI Health Recommendations** powered by Gemini  
+- **AI Health Summary** — short, readable analysis based on recent activity  
+- Daily trends visualized instantly  
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/22b6a526-8850-42e4-9dba-ecd9ae9027a2) and start prompting.
+## **2. Med Scan AI (Gemini Vision)**
+- Upload prescriptions, lab results, or skin/eye images  
+- Gemini Vision interprets the scan  
+- Returns **to-the-point**, readable risk analysis  
+- Suggests doctor types & next steps  
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## **3. NutriSnap & AI Diet Planner**
+- Upload a **meal photo** → Gemini Vision analyzes ingredients  
+- Detects calories, macros, sugar, protein  
+- Auto-logs the meal  
+- **7-day AI Diet Plan**, personalized based on:
+  - Weight goals  
+  - Past meals  
+  - Deficiencies  
+  - Lifestyle  
+- Plans update dynamically with user input  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## **4. IoT Health Device Integration**
+- Sync with:
+  - Smart scales  
+  - Heart-rate sensors  
+  - BP monitors  
+  - Step counters  
+- AI auto-updates health score using IoT streams  
+- Predicts anomalies using Gemini  
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## **5. Predictive Health (AI Risk Engine)**
+- Gemini analyzes:
+  - Sleep patterns  
+  - Hydration  
+  - IoT vitals  
+  - Symptoms  
+  - Medications  
+- Provides **dynamic health risk predictions**  
+- 4 live trends updated from user activity  
+- **Generate Health Report** → creates a full PDF using Gemini  
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## **6. Medications Manager**
+- Add medications with **exact clock timing**  
+- AI suggests optimal timing  
+- Tracks missed doses  
+- Checks interactions via Gemini  
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+## **7. Appointments Manager**
+- Add upcoming doctor visits  
+- AI sends reminders and preparations  
+- Organizes based on urgency & specialty  
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## **8. AI Health Chat**
+- A real-time Gemini-powered health assistant  
+- Context-aware:
+  - Past scans  
+  - Medications  
+  - IoT vitals  
+  - Symptoms  
+- Provides short, simple, medically safe responses  
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## **9. Find Doctor**
+- Searches doctors using **real web data**  
+- Filters by location, experience, specialty  
+- AI recommends which doctor to consult based on symptoms  
+- Supports booking flow  
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## **10. Family Safety + SOS**
+- Add and track family profiles  
+- Integrate elderly IoT devices  
+- **SOS button**:
+  - Sends live location  
+  - Sends latest vitals  
+  - Sends medications list  
+- AI risk monitoring for all family members  
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/22b6a526-8850-42e4-9dba-ecd9ae9027a2) and click on Share -> Publish.
+# **🧠 AI Architecture (Gemini Everywhere)**
 
-## Can I connect a custom domain to my Lovable project?
+VitalSense uses **Gemini 2.0 Flash / Pro / Vision** for all intelligence:
 
-Yes, you can!
+### **Gemini Flash**
+- Fast dashboard updates  
+- Instant recommendations  
+- Meal recognition  
+- Quick risk alerts  
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+### **Gemini Pro**
+- Advanced diet planning  
+- Predictive risk modeling  
+- Full report generation  
+- Deep scan analysis  
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+### **Gemini Vision**
+- Medical scan interpretation  
+- Meal image nutrition analysis  
+
+---
+
+# **🧩 Tech Stack**
+
+### **Frontend**
+- Next.js / React  
+- Tailwind CSS  
+- Zustand / Redux  
+
+### **Backend**
+- Node.js  
+- Express  
+- MongoDB / Firebase  
+
+### **AI**
+- **Gemini API (all endpoints)**  
+
+### **IoT**
+- Smart device integrations  
+- Realtime sync engine  
+
+---
+
+# **🔑 Environment Setup**
+
