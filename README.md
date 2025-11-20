@@ -147,7 +147,4 @@ VitalSense uses **Gemini 2.0 Flash / Pro / Vision** for all intelligence:
 - Smart device integrations  
 - Realtime sync engine  
 
----
-
-# **🔑 Environment Setup**
 
