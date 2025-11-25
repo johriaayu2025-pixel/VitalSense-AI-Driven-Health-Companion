@@ -106,28 +106,6 @@ Powered entirely by **Google Gemini models**, VitalSense understands user data, 
 
 ---
 
-# ** AI Architecture (Gemini Everywhere)**
-
-VitalSense uses **Gemini 2.0 Flash / Pro / Vision** for all intelligence:
-
-### **Gemini Flash**
-- Fast dashboard updates  
-- Instant recommendations  
-- Meal recognition  
-- Quick risk alerts  
-
-### **Gemini Pro**
-- Advanced diet planning  
-- Predictive risk modeling  
-- Full report generation  
-- Deep scan analysis  
-
-### **Gemini Vision**
-- Medical scan interpretation  
-- Meal image nutrition analysis  
-
----
-
 # **Tech Stack**
 
 ### **Frontend**
@@ -141,7 +119,7 @@ VitalSense uses **Gemini 2.0 Flash / Pro / Vision** for all intelligence:
 - MongoDB / Firebase  
 
 ### **AI**
-- **Gemini API (all endpoints)**  
+- **Gemini API**  
 
 ### **IoT**
 - Smart device integrations  
