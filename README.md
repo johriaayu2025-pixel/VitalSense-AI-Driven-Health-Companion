@@ -125,4 +125,4 @@ Powered entirely by **Google Gemini models**, VitalSense understands user data, 
 - Smart device integrations  
 - Realtime sync engine  
 
-
+PPT LINK-https://docs.google.com/presentation/d/1_In0-H7b080WVv-PoCSdtH9DF4hm08sf/edit?usp=drive_link&ouid=111800602755650853812&rtpof=true&sd=true
