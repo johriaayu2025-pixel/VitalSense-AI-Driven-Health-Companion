@@ -1,128 +1,130 @@
-# **VitalSense – AI-Powered Personal Health & Wellness Platform**
+# **Submission Details**
 
-VitalSense is an intelligent, real-time personal health companion that combines medical AI, nutrition analysis, IoT integration, and emergency safety into one seamless experience.  
-Powered entirely by **Google Gemini models**, VitalSense understands user data, predicts risks, analyzes scans, and responds like a smart health co-pilot.
+## **1. Problem Statement**
+Modern healthcare apps are fragmented—users rely on multiple platforms for vitals, diet tracking, medical reports, medications, appointments, and emergency safety. This lack of integration leads to missed health risks, poor compliance, delayed care, and unsafe emergency responses. There is a need for a unified, intelligent, real-time AI-powered platform that proactively monitors health, predicts risks, and assists users with actionable insights.
 
----
+## **2. Project Name**
+**VitalSense – AI-Powered Personal Health & Wellness Platform**
 
-# **Key Features**
+## **3. Team Name**
+**EmpowerNet**
 
-## **1. Smart Health Dashboard**
-- Dynamic **Overall Health Score** (auto-updated using user logs + AI interpretation)  
-- Intelligent **Hydration Tracking**  
-- **AI Health Recommendations** powered by Gemini  
-- **AI Health Summary** — short, readable analysis based on recent activity  
-- Daily trends visualized instantly  
+## **4. Deployed Link **
+https://johriaayu2025-pixel.github.io/Vitalsense/
 
----
-
-## **2. Med Scan AI (Gemini Vision)**
-- Upload prescriptions, lab results, or skin/eye images  
-- Gemini Vision interprets the scan  
-- Returns **to-the-point**, readable risk analysis  
-- Suggests doctor types & next steps  
+## **5. PPT Link**
+**https://docs.google.com/presentation/d/1_In0-H7b080WVv-PoCSdtH9DF4hm08sf/edit**
 
 ---
 
-## **3. NutriSnap & AI Diet Planner**
-- Upload a **meal photo** → Gemini Vision analyzes ingredients  
-- Detects calories, macros, sugar, protein  
-- Auto-logs the meal  
-- **7-day AI Diet Plan**, personalized based on:
-  - Weight goals  
-  - Past meals  
-  - Deficiencies  
-  - Lifestyle  
-- Plans update dynamically with user input  
+# **README**
+
+## **Project Overview**
+VitalSense is an intelligent, real-time personal health companion that combines medical AI, nutrition analysis, IoT integration, and emergency safety into a single seamless platform. Powered entirely by Google Gemini models, VitalSense analyzes health data, predicts risks, interprets medical scans, and assists users like a smart health co-pilot.
 
 ---
 
-## **4. IoT Health Device Integration**
-- Sync with:
-  - Smart scales  
-  - Heart-rate sensors  
-  - BP monitors  
-  - Step counters  
-- AI auto-updates health score using IoT streams  
-- Predicts anomalies using Gemini  
+## **Key Features**
+
+### **Smart Health Dashboard**
+- AI-generated overall health score  
+- Hydration and activity tracking  
+- Daily health summaries and trends  
+- Personalized AI health recommendations  
+
+### **Med Scan AI (Gemini Vision)**
+- Upload prescriptions, lab reports, or medical images  
+- AI extracts insights and risks  
+- Suggests next steps and doctor specialties  
+
+### **NutriSnap and AI Diet Planner**
+- Upload food images for calorie and macro analysis  
+- Automatic meal logging  
+- Personalized 7-day diet plan  
+- Dynamic updates based on lifestyle and goals  
+
+### **IoT Health Device Integration**
+- Integration with smart scales, BP monitors, and heart-rate sensors  
+- Real-time vitals synchronization  
+- AI-based anomaly detection  
+
+### **Predictive Health Risk Engine**
+- Analyzes sleep, vitals, hydration, and symptoms  
+- Early health risk prediction  
+- Generates downloadable AI health reports in PDF format  
+
+### **Medications Manager**
+- Medication reminders with exact timing  
+- Missed-dose tracking  
+- AI-based drug interaction checks  
+
+### **Appointments Manager**
+- Doctor visit scheduling  
+- AI-based urgency prioritization and preparation reminders  
+
+### **AI Health Chat**
+- Context-aware Gemini-powered assistant  
+- Uses past scans, vitals, and medications  
+- Provides concise and medically safe responses  
+
+### **Find Doctor**
+- Searches doctors using real-time web data  
+- Filters by location and specialization  
+- AI-recommended consultations  
+
+### **Family Safety and SOS**
+- Family profile management  
+- Elderly IoT monitoring  
+- One-tap SOS with live location, latest vitals, and medication history  
 
 ---
 
-## **5. Predictive Health (AI Risk Engine)**
-- Gemini analyzes:
-  - Sleep patterns  
-  - Hydration  
-  - IoT vitals  
-  - Symptoms  
-  - Medications  
-- Provides **dynamic health risk predictions**  
-- 4 live trends updated from user activity  
-- **Generate Health Report** → creates a full PDF using Gemini  
+## **Setup and Installation Instructions**
+
+```bash
+git clone https://github.com/your-username/vitalsense.git
+cd vitalsense
+npm install
+npm run dev
+
+## **Usage Instructions**
+
+1. **Register or log in**
+2. **Add health details, medications, and goals**
+3. **Connect IoT devices if available**
+4. **Upload scans or meal images**
+5. **View AI insights, risk predictions, and reports**
+6. **Use SOS and family safety features when required**
 
 ---
 
-## **6. Medications Manager**
-- Add medications with **exact clock timing**  
-- AI suggests optimal timing  
-- Tracks missed doses  
-- Checks interactions via Gemini  
+## **Relevant Screenshots**
+
+**Screenshots of the dashboard, Med Scan AI results, NutriSnap analysis, predictive reports, and SOS screen can be added in a `/screenshots` directory.**
 
 ---
 
-## **7. Appointments Manager**
-- Add upcoming doctor visits  
-- AI sends reminders and preparations  
-- Organizes based on urgency & specialty  
-
----
-
-## **8. AI Health Chat**
-- A real-time Gemini-powered health assistant  
-- Context-aware:
-  - Past scans  
-  - Medications  
-  - IoT vitals  
-  - Symptoms  
-- Provides short, simple, medically safe responses  
-
----
-
-## **9. Find Doctor**
-- Searches doctors using **real web data**  
-- Filters by location, experience, specialty  
-- AI recommends which doctor to consult based on symptoms  
-- Supports booking flow  
-
----
-
-## **10. Family Safety + SOS**
-- Add and track family profiles  
-- Integrate elderly IoT devices  
-- **SOS button**:
-  - Sends live location  
-  - Sends latest vitals  
-  - Sends medications list  
-- AI risk monitoring for all family members  
-
----
-
-# **Tech Stack**
+## **Tech Stack**
 
 ### **Frontend**
-- Next.js / React  
-- Tailwind CSS  
-- Zustand / Redux  
+- **Next.js / React**
+- **Tailwind CSS**
+- **Zustand / Redux**
 
 ### **Backend**
-- Node.js  
-- Express  
-- MongoDB / Firebase  
+- **Node.js**
+- **Express**
+- **MongoDB / Firebase**
 
 ### **AI**
-- **Gemini API**  
+- **Google Gemini API**
 
 ### **IoT**
-- Smart device integrations  
-- Realtime sync engine  
+- **Real-time health device integrations**
 
-PPT LINK-https://docs.google.com/presentation/d/1_In0-H7b080WVv-PoCSdtH9DF4hm08sf/edit?usp=drive_link&ouid=111800602755650853812&rtpof=true&sd=true
+---
+
+## **Impact**
+
+**VitalSense enables preventive healthcare, improves compliance, enhances emergency response, and provides intelligent health monitoring for individuals and families.**
+
