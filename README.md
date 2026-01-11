@@ -10,7 +10,7 @@ Modern healthcare apps are fragmented—users rely on multiple platforms for vit
 **EmpowerNet**
 
 ## **4. Deployed Link **
-https://johriaayu2025-pixel.github.io/Vitalsense/
+https://vital-sense.netlify.app/
 
 ## **5. PPT Link**
 **https://docs.google.com/presentation/d/1_In0-H7b080WVv-PoCSdtH9DF4hm08sf/edit**
