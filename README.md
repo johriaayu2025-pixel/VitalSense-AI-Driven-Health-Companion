@@ -95,13 +95,6 @@ npm run dev
 4. **Upload scans or meal images**
 5. **View AI insights, risk predictions, and reports**
 6. **Use SOS and family safety features when required**
-
----
-
-## **Relevant Screenshots**
-
-**Screenshots of the dashboard, Med Scan AI results, NutriSnap analysis, predictive reports, and SOS screen can be added in a `/screenshots` directory.**
-
 ---
 
 ## **Tech Stack**
